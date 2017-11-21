@@ -1,0 +1,39 @@
+{
+  "name": "worlds",
+  "version": "1.0.0",
+  "description": "An interactive experience",
+  "main": "start.js",
+  "scripts": {
+    "test": "cucumber.js -r features",
+    "start": "node start.js"
+  },
+  "directories": {
+    "test": "features"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altereagle/worlds.git"
+  },
+  "keywords": [
+    "interactive",
+    "javascript",
+    "node"
+  ],
+  "author": "Kendell Joseph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/altereagle/worlds/issues"
+  },
+  "homepage": "https://github.com/altereagle/worlds#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.10.0",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "cucumber": "^3.1.0"
+  }
+}

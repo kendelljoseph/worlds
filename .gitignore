@@ -1,3 +1,7 @@
+# Sensitive Materials
+__private
+.env
+
 # Logs
 logs
 *.log
